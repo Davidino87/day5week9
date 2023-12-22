@@ -1,0 +1,29 @@
+:root {
+  --gray: #838383;
+  --dark-gray: #221f1f;
+}
+
+* {
+  background-color: var(--dark-gray);
+}
+
+.text-gray {
+  color: var(--gray);
+}
+
+.border-gray {
+  border-color: var(--gray);
+}
+
+#logo-img {
+  width: 90px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a {
+  font-size: 0.8rem;
+}
